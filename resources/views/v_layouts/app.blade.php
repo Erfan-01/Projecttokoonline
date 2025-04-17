@@ -193,7 +193,7 @@
                 <div id="home-slick">
                     <!-- banner -->
                     <div class="banner banner-1">
-                        <img src="{{ asset('frontend/banner/banner01.jpg') }}" alt="">
+                        <img src="{{ asset('frontend/banner/banner02.jpg') }}" alt="">
                         <div class="banner-caption text-center">
                             <h1>Jajanan Tradisional</h1>
                             <h3 class="white-color font-weak">Khas Makanan Indonesia</h3>
