@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
         User::create([
             'nama' => 'Administrator',
             'email' => 'admin@gmail.com',
-            'role' => '1',
+            'role' => '0',
             'status' => 1,
             'hp' => '089693612443',
             'password' => bcrypt('P@55word'),
@@ -26,10 +26,19 @@ class DatabaseSeeder extends Seeder
         User::create([
             'nama' => 'Julius Bernardino Erfanda',
             'email' => 'juliusbernardinoerfanda@gmail.com',
-            'role' => '0',
+            'role' => '1',
             'status' => 1,
             'hp' => '082254694962',
             'password' => bcrypt('19231679'),
+        ]);
+
+        User::create([
+            'nama' => 'Erfan',
+            'email' => 'bernardinoevan81@gmail.com',
+            'role' => '2',
+            'status' => 1,
+            'hp' => '085752356036',
+            'password' => bcrypt('089800'),
         ]);
 
         #data kategori
